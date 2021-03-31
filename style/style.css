@@ -47,9 +47,6 @@ cursor:pointer;}
 	width: 960px;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(../images/pageWrapBack.jpg);
-	background-repeat:repeat-y;
-	background-position:top left;
 }
 
 .header{
@@ -87,7 +84,7 @@ margin-right:8px;
 /*NAVIGATION FORMATTING*/
 .nav{
 /*background-color:#ebf6fd;*/
-width:180px;
+width:130px;
 float:left;
 height:auto;
 }
@@ -102,7 +99,7 @@ height:auto;
 .nav tr{
 height:35px;
 font-family: helvetica,verdana,arial,sans-serif;
-	font-size:15px;
+	font-size:16px;
 	color:#234991;
 
 
@@ -110,7 +107,7 @@ font-family: helvetica,verdana,arial,sans-serif;
 
 td.menuon {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:15px;
+	font-size:16px;
 	background-color:#005dab;
 	color:#FFFFFF; 
 	width:160px;
@@ -118,7 +115,7 @@ td.menuon {
 
 td.menuon a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:15px;
+	font-size:16px;
 	color:#FFFFFF;
 	text-decoration:none;
 	width:160px;
@@ -126,7 +123,7 @@ td.menuon a {
 
 td.menuoff {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:15px;
+	font-size:16px;
 	background-color:#ebf6fd;
 	color:#234991;
 	width:160px;
@@ -134,7 +131,7 @@ td.menuoff {
 
 td.menuoff a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:15px;
+	font-size:16px;
 	color:#234991;
 	text-decoration:none;
 	width:160px;
@@ -265,7 +262,7 @@ min-height:25px;
 /*background-color:#cfcaba;
 background-repeat:repeat-y;
 background-position:top right;*/
-width:220px;
+width:270px;
 float:left;
 height:100%;
 }
@@ -290,7 +287,7 @@ font-weight:normal !important;
 
 span.nameHeadline{
 text-align:center;
-font-size:18px;
+font-size:25px;
 color:#96271d;
 font-family:Palatino;
 font-weight:normal !important;
@@ -302,7 +299,7 @@ margin-left:auto;
 margin-right:auto;
 margin-top:20px;
 width:15em;
-font-size:13px;
+font-size:16px;
 }
 
 .rightInfo a{
