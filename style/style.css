@@ -79,6 +79,7 @@ height:34px;
 .footer p{color:#ffffff;
 text-align:right;
 margin-right:8px;
+font-size:12px
 }
 
 /*NAVIGATION FORMATTING*/
@@ -198,22 +199,12 @@ margin-top:10px;
 .mc li a{
 text-decoration:underline;
 color:#000000;
-font-size:13px;
+font-size:15px;
 }
 
 .mc li p{
-font-size:13px;
+font-size:16px;
 margin-top:5px;
-}
-
-#abstractLink{
-font-size:13px;
-}
-
-p.abstractInfo{
-text-align:justify !important;
-font-size:13px;
-margin-left:10px;
 }
 
 #paperLink{
@@ -227,7 +218,7 @@ font-size:15px;
 text-align:left !important;}
 
 .paperInfo{
-font-size:13px;}
+font-size:15px;}
 
 .mc h3{
 font-size:13px;
@@ -236,7 +227,7 @@ text-decoration:none;}
 
 p.teachingHeadline
 {
-font-size:14px;
+font-size:15px;
 font-weight:bold;
 }
 
@@ -245,7 +236,7 @@ ul.break
 clear:left;}
 
 li.teachingLi{
-font-size:13px;
+font-size:15px;
 }
 
 li.noBullet{
