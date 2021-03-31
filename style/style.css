@@ -79,7 +79,7 @@ height:34px;
 .footer p{color:#ffffff;
 text-align:right;
 margin-right:8px;
-font-size:12px
+font-size:16px
 }
 
 /*NAVIGATION FORMATTING*/
@@ -100,7 +100,7 @@ height:auto;
 .nav tr{
 height:35px;
 font-family: helvetica,verdana,arial,sans-serif;
-	font-size:16px;
+	font-size:17px;
 	color:#234991;
 
 
@@ -108,7 +108,7 @@ font-family: helvetica,verdana,arial,sans-serif;
 
 td.menuon {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:16px;
+	font-size:17px;
 	background-color:#005dab;
 	color:#FFFFFF; 
 	width:160px;
@@ -116,7 +116,7 @@ td.menuon {
 
 td.menuon a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:16px;
+	font-size:17px;
 	color:#FFFFFF;
 	text-decoration:none;
 	width:160px;
@@ -124,7 +124,7 @@ td.menuon a {
 
 td.menuoff {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:16px;
+	font-size:17px;
 	background-color:#ebf6fd;
 	color:#234991;
 	width:160px;
@@ -132,7 +132,7 @@ td.menuoff {
 
 td.menuoff a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:16px;
+	font-size:17px;
 	color:#234991;
 	text-decoration:none;
 	width:160px;
@@ -148,6 +148,7 @@ background-color:#FFFFFF;
 width:560px;
 height:auto;
 float:left;
+line-height: 1.8em;   /* SPACING! */
 }
 
 .mc img{
@@ -166,7 +167,7 @@ font-size:25px;
 .mc p{
 float:left;
 margin-left: 28px;
-font-size:12px;
+font-size:15px;
 }
 
 p.pdfLink{
@@ -181,7 +182,7 @@ font-size:11px;
 }
 
 .mc h1{
-font-size:18px;
+font-size:20px;
 text-align:left;
 margin-left:15px;
 }
@@ -189,11 +190,12 @@ margin-left:15px;
 .mc ul{
 margin-left:15px;
 font-size:15px;
+margin-bottom:30px; 
 }
 
 .mc li{
 width:450px;
-margin-top:10px;
+margin-top:20px;
 }
 
 .mc li a{
