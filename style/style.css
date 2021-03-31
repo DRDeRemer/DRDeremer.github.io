@@ -167,7 +167,7 @@ font-size:25px;
 .mc p{
 float:left;
 margin-left: 28px;
-font-size:15px;
+font-size:16px;
 }
 
 p.pdfLink{
@@ -229,7 +229,7 @@ text-decoration:none;}
 
 p.teachingHeadline
 {
-font-size:16px;
+font-size:17px;
 font-weight:bold;
 }
 
@@ -239,6 +239,7 @@ clear:left;}
 
 li.teachingLi{
 font-size:16px;
+margin-top:10px;
 }
 
 li.noBullet{
