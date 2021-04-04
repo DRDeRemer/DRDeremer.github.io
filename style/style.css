@@ -35,7 +35,7 @@ cursor:pointer;}
 
 
 .pageWrap{
-	border: 10px solid white;
+	/* border: 10px solid white; */
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
@@ -44,7 +44,7 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
-	width: 100%;
+	width: 95%;
 	margin-left:auto;
 	margin-right:auto;
 }
