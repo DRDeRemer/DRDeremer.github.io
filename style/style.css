@@ -35,8 +35,13 @@ cursor:pointer;}
 
 
 .pageWrap{
+<<<<<<< HEAD
 	/* border: 10px solid white; */
 	width:100%;
+=======
+	border: 10px solid white;
+	width:960px;
+>>>>>>> parent of 683503e (mobile usability)
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -44,7 +49,11 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
+<<<<<<< HEAD
 	width: 95%;
+=======
+	width: 960px;
+>>>>>>> parent of 683503e (mobile usability)
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -85,7 +94,7 @@ font-size:16px
 /*NAVIGATION FORMATTING*/
 .nav{
 /*background-color:#ebf6fd;*/
-width:13%;
+width:130px;
 float:left;
 height:auto;
 }
@@ -93,7 +102,7 @@ height:auto;
 .nav table{
 	margin-top:20px;
 	padding:5px;
-	width:18%;
+	width:177px;
 
 }
 
@@ -111,7 +120,7 @@ td.menuon {
 	font-size:17px;
 	background-color:#005dab;
 	color:#FFFFFF; 
-	width:17%;
+	width:160px;
 }
 
 td.menuon a {
@@ -119,7 +128,7 @@ td.menuon a {
 	font-size:17px;
 	color:#FFFFFF;
 	text-decoration:none;
-	width:17%;
+	width:160px;
 }
 
 td.menuoff {
@@ -127,7 +136,7 @@ td.menuoff {
 	font-size:17px;
 	background-color:#ebf6fd;
 	color:#234991;
-	width:17%;
+	width:160px;
 }
 
 td.menuoff a {
@@ -135,7 +144,7 @@ td.menuoff a {
 	font-size:17px;
 	color:#234991;
 	text-decoration:none;
-	width:17%;
+	width:160px;
 }
 
 .nav tr{
@@ -145,7 +154,7 @@ cursor:pointer;
 /*MAIN CONTENT FORMATTING*/
 .mc{
 background-color:#FFFFFF;
-width:60%;
+width:560px;
 height:auto;
 float:left;
 line-height: 1.8em;   /* SPACING! */
@@ -194,7 +203,11 @@ margin-bottom:30px;
 }
 
 .mc li{
+<<<<<<< HEAD
 width:100%;
+=======
+width:450px;
+>>>>>>> parent of 683503e (mobile usability)
 margin-top:20px;
 }
 
@@ -256,7 +269,7 @@ min-height:25px;
 /*background-color:#cfcaba;
 background-repeat:repeat-y;
 background-position:top right;*/
-width:27%;
+width:270px;
 float:left;
 height:100%;
 }
