@@ -36,7 +36,7 @@ cursor:pointer;}
 
 .pageWrap{
 	border: 10px solid white;
-	width:960px;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -44,7 +44,7 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
-	width: 960px;
+	width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -85,7 +85,7 @@ font-size:16px
 /*NAVIGATION FORMATTING*/
 .nav{
 /*background-color:#ebf6fd;*/
-width:130px;
+width:13%;
 float:left;
 height:auto;
 }
@@ -93,7 +93,7 @@ height:auto;
 .nav table{
 	margin-top:20px;
 	padding:5px;
-	width:177px;
+	width:18%;
 
 }
 
@@ -111,7 +111,7 @@ td.menuon {
 	font-size:17px;
 	background-color:#005dab;
 	color:#FFFFFF; 
-	width:160px;
+	width:17%;
 }
 
 td.menuon a {
@@ -119,7 +119,7 @@ td.menuon a {
 	font-size:17px;
 	color:#FFFFFF;
 	text-decoration:none;
-	width:160px;
+	width:17%;
 }
 
 td.menuoff {
@@ -127,7 +127,7 @@ td.menuoff {
 	font-size:17px;
 	background-color:#ebf6fd;
 	color:#234991;
-	width:160px;
+	width:17%;
 }
 
 td.menuoff a {
@@ -135,7 +135,7 @@ td.menuoff a {
 	font-size:17px;
 	color:#234991;
 	text-decoration:none;
-	width:160px;
+	width:17%;
 }
 
 .nav tr{
@@ -145,7 +145,7 @@ cursor:pointer;
 /*MAIN CONTENT FORMATTING*/
 .mc{
 background-color:#FFFFFF;
-width:560px;
+width:60%;
 height:auto;
 float:left;
 line-height: 1.8em;   /* SPACING! */
@@ -194,7 +194,7 @@ margin-bottom:30px;
 }
 
 .mc li{
-width:450px;
+width:95%;
 margin-top:20px;
 }
 
@@ -256,7 +256,7 @@ min-height:25px;
 /*background-color:#cfcaba;
 background-repeat:repeat-y;
 background-position:top right;*/
-width:270px;
+width:27%;
 float:left;
 height:100%;
 }
