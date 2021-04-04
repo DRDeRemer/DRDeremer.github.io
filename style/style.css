@@ -106,8 +106,8 @@ font-family: helvetica,verdana,arial,sans-serif;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-     height:5vh;
-     font-size: 1.5vh;
+     height:6vh;
+     font-size: 1.8vh;
   }
 }
 
@@ -193,7 +193,7 @@ font-weight:normal !important;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-     font-size: 4vh;
+     font-size: 6vh;
   }
 
 }
