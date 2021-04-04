@@ -4,6 +4,7 @@ html{height: 100%;}
 
 body
 { font-family: arial, helvetica, sans-serif;
+  font-size:16px;
   padding: 0px;
   margin: 0px;
   font-size: .68em;
@@ -19,7 +20,6 @@ p
 h1
 { font-family: arial, sans-serif;
    letter-spacing: .01em;
-  display:block;
 }
 
 h2
@@ -35,8 +35,8 @@ cursor:pointer;}
 
 
 .pageWrap{
-	border: 10px solid white;
-	width:960px;
+	/*border: 10px solid white;*/
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -44,7 +44,7 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
-	width: 960px;
+	width: 95%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -74,6 +74,7 @@ text-decoration:underline;
 .footer{
 background-color:#005dab;
 height:34px;
+width:auto;
 }
 
 .footer p{color:#ffffff;
@@ -82,25 +83,25 @@ margin-right:8px;
 font-size:16px
 }
 
+
+
 /*NAVIGATION FORMATTING*/
-.nav{
-/*background-color:#ebf6fd;*/
-width:130px;
-float:left;
-height:auto;
-}
+
 
 .nav table{
 	margin-top:20px;
-	padding:5px;
-	width:177px;
+	margin-left:auto;
+margin-right:auto;
 
+	padding:5px;
+	width:80%;
 }
 
 .nav tr{
-height:35px;
+height:45px;
 font-family: helvetica,verdana,arial,sans-serif;
 	font-size:17px;
+      font-weight:500;
 	color:#234991;
 
 
@@ -108,47 +109,110 @@ font-family: helvetica,verdana,arial,sans-serif;
 
 td.menuon {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:17px;
+	
 	background-color:#005dab;
 	color:#FFFFFF; 
-	width:160px;
+	width:95%;
 }
 
 td.menuon a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:17px;
+	
 	color:#FFFFFF;
 	text-decoration:none;
-	width:160px;
+	width:95%;
 }
 
 td.menuoff {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:17px;
+	
 	background-color:#ebf6fd;
 	color:#234991;
-	width:160px;
-}
+	width:95%;
+    }
 
 td.menuoff a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	font-size:17px;
+	
 	color:#234991;
 	text-decoration:none;
-	width:160px;
+	width:95%;
+
 }
 
 .nav tr{
 cursor:pointer;
 }
 
+
+
+
+/*OLD RIGHT INFO FORMATTING*/
+.nav{
+/*background-image:url(../images/navBack.jpg);*/
+/*background-color:#cfcaba;
+background-repeat:repeat-y;
+background-position:top right;*/
+float:left;
+width:20%;
+
+}
+
+.nav img{
+display:block;
+margin-left:10%;
+/*margin-left:auto;
+margin-right:auto; */
+margin-top:10px;
+margin-bottom:25px;
+}
+
+.nav H4{
+/*margin-left:20px;*/
+text-align:left;
+font-size:18px;
+color:#96271d;
+font-family:Palatino;
+font-weight:normal !important;
+
+}
+
+span.nameHeadline{
+text-align:center; 
+font-size:25px;
+color:#96271d;
+font-family:Palatino;
+font-weight:normal !important;
+
+}
+
+.nav p{
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+width:80%; 
+font-size:16px;
+}
+
+.nav a{
+color:#000000;
+text-decoration:underline;
+}
+
+
+
+
+
+
 /*MAIN CONTENT FORMATTING*/
 .mc{
 background-color:#FFFFFF;
-width:560px;
 height:auto;
 float:left;
-line-height: 1.8em;   /* SPACING! */
+line-height: 2.2em;   /* SPACING! */
+
+width:80%;
+
 }
 
 .mc img{
@@ -167,8 +231,8 @@ font-size:25px;
 .mc p{
 float:left;
 margin-left: 28px;
-font-size:16px;
 }
+
 
 p.pdfLink{
 font-size:11px;
@@ -181,21 +245,22 @@ color:#000000;
 font-size:11px;
 }
 
-.mc h1{
+.mc li h1{
 font-size:20px;
-text-align:left;
-margin-left:15px;
+text-align:left; !important;
+margin-left:-15px;
+display:block;
 }
 
 .mc ul{
-margin-left:15px;
 font-size:15px;
-margin-bottom:30px; 
+margin-bottom:50px; 
 }
 
 .mc li{
-width:450px;
+width:90%;
 margin-top:20px;
+margin-bottom:25px;
 }
 
 .mc li a{
@@ -205,6 +270,7 @@ font-size:15px;
 }
 
 .mc li p{
+margin-left:15px;
 font-size:16px;
 margin-top:5px;
 }
@@ -221,6 +287,7 @@ text-align:left !important;}
 
 .paperInfo{
 font-size:15px;}
+
 
 .mc h3{
 font-size:13px;
@@ -250,53 +317,3 @@ li div{
 min-height:25px;
 }
 
-/*RIGHT INFO FORMATTING*/
-.rightInfo{
-/*background-image:url(../images/rightInfoBack.jpg);*/
-/*background-color:#cfcaba;
-background-repeat:repeat-y;
-background-position:top right;*/
-width:270px;
-float:left;
-height:100%;
-}
-
-.rightInfo img{
-display:block;
-margin-left:auto;
-margin-right:auto;
-margin-top:10px;
-margin-bottom:25px;
-}
-
-.rightInfo H4{
-/*margin-left:20px;*/
-text-align:center;
-font-size:18px;
-color:#96271d;
-font-family:Palatino;
-font-weight:normal !important;
-
-}
-
-span.nameHeadline{
-text-align:center;
-font-size:25px;
-color:#96271d;
-font-family:Palatino;
-font-weight:normal !important;
-
-}
-
-.rightInfo p{
-margin-left:auto;
-margin-right:auto;
-margin-top:20px;
-width:15em;
-font-size:16px;
-}
-
-.rightInfo a{
-color:#000000;
-text-decoration:underline;
-}
