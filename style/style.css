@@ -73,7 +73,7 @@ text-decoration:underline;
 
 .footer{
 background-color:#005dab;
-height:34px;
+height:4vh;
 width:auto;
 }
 
@@ -98,11 +98,18 @@ margin-right:auto;
 }
 
 .nav tr{
-height:45px;
+height:40px;
 font-family: helvetica,verdana,arial,sans-serif;
-	font-size:2vh;
+	font-size: 17px;
       font-weight:500;
 	color:#234991;
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+     height:4.2vh;
+     font-size: 2vh;
+  }
+}
 
 
 }
@@ -183,6 +190,11 @@ font-size:25px;
 color:#96271d;
 font-family:Palatino;
 font-weight:normal !important;
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+     font-size: 3vh;
+  }
 
 }
 
