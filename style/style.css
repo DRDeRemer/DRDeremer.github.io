@@ -101,13 +101,13 @@ margin-right:auto;
 height:40px;
 font-family: helvetica,verdana,arial,sans-serif;
 	font-size: 17px;
-      font-weight:500;
+      font-weight:450;
 	color:#234991;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-     height:4.2vh;
-     font-size: 2vh;
+     height:5vh;
+     font-size: 1.5vh;
   }
 }
 
@@ -193,7 +193,7 @@ font-weight:normal !important;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-     font-size: 3vh;
+     font-size: 4vh;
   }
 
 }
