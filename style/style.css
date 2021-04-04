@@ -1,6 +1,6 @@
 /* GLOBAL */
 
-html{height: 100%; }
+html{height: 100%;}
 
 body
 { font-family: arial, helvetica, sans-serif;
@@ -35,13 +35,8 @@ cursor:pointer;}
 
 
 .pageWrap{
-<<<<<<< HEAD
-	/* border: 10px solid white; */
-	width:100%;
-=======
 	border: 10px solid white;
 	width:960px;
->>>>>>> parent of 683503e (mobile usability)
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -49,11 +44,7 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
-<<<<<<< HEAD
-	width: 95%;
-=======
 	width: 960px;
->>>>>>> parent of 683503e (mobile usability)
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -61,7 +52,7 @@ cursor:pointer;}
 .header{
 background-color:#005dab;
 height:34px;
-/* width:auto; */
+width:auto;
 }
 
 .header a{
@@ -203,11 +194,7 @@ margin-bottom:30px;
 }
 
 .mc li{
-<<<<<<< HEAD
-width:100%;
-=======
 width:450px;
->>>>>>> parent of 683503e (mobile usability)
 margin-top:20px;
 }
 
