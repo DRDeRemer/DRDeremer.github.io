@@ -52,7 +52,7 @@ cursor:pointer;}
 .header{
 background-color:#005dab;
 height:34px;
-width:auto;
+/* width:auto; */
 }
 
 .header a{
@@ -194,7 +194,7 @@ margin-bottom:30px;
 }
 
 .mc li{
-width:95%;
+width:100%;
 margin-top:20px;
 }
 
