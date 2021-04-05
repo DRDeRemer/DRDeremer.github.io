@@ -4,7 +4,6 @@ html{height: 100%;}
 
 body
 { font-family: arial, helvetica, sans-serif;
-  font-size:16px;
   padding: 0px;
   margin: 0px;
   font-size: .68em;
@@ -20,6 +19,7 @@ p
 h1
 { font-family: arial, sans-serif;
    letter-spacing: .01em;
+   display:block;
 }
 
 h2
@@ -80,7 +80,7 @@ width:auto;
 .footer p{color:#ffffff;
 text-align:right;
 margin-right:8px;
-font-size:16px
+font-size:16px;
 }
 
 
@@ -90,60 +90,56 @@ font-size:16px
 
 .nav table{
 	margin-top:20px;
-	margin-left:auto;
-margin-right:auto;
-
-	padding:5px;
-	width:80%;
+      margin-left:10%; 
+	/* margin-left:auto;
+       margin-right:auto;  */
+	/* padding:5px; */
+	width:80%; 
 }
 
 .nav tr{
-height:40px;
+height:40px; 
+
+/* font-weight: 600; */
 font-family: helvetica,verdana,arial,sans-serif;
 	font-size: 17px;
-      font-weight:450;
-	color:#234991;
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-     height:6vh;
+      height:6vh;
      font-size: 1.8vh;
-  }
+  } 
 }
 
 
-}
 
 td.menuon {
 	font-family: helvetica,verdana,arial,sans-serif;
-	
+
 	background-color:#005dab;
-	color:#FFFFFF; 
-	width:95%;
+	color:#FFFFFF;
+	
 }
 
 td.menuon a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	
 	color:#FFFFFF;
 	text-decoration:none;
-	width:95%;
+
 }
 
 td.menuoff {
 	font-family: helvetica,verdana,arial,sans-serif;
-	
 	background-color:#ebf6fd;
 	color:#234991;
-	width:95%;
+
+	
     }
 
 td.menuoff a {
 	font-family: helvetica,verdana,arial,sans-serif;
-	
 	color:#234991;
 	text-decoration:none;
-	width:95%;
+
 
 }
 
