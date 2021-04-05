@@ -99,15 +99,14 @@ font-size:16px;
 .nav tr{
 height:40px; 
 
- font-weight: 600; 
 font-family: helvetica,verdana,arial,sans-serif;
 	font-size: 17px;
-/*
+
 @media only screen and (max-width: 768px) {
       height:6vh;
      font-size: 1.8vh;
   } 
-*/
+
 }
 
 
