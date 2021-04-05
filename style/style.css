@@ -168,9 +168,8 @@ width:20%;
 
 .nav img{
 display:block;
-margin-left:10%;
-/*margin-left:auto;
-margin-right:auto; */
+margin-left:auto;
+margin-right:auto;
 margin-top:10px;
 margin-bottom:25px;
 }
@@ -187,6 +186,8 @@ font-weight:normal !important;
 
 span.nameHeadline{
 text-align:center; 
+margin-left:auto;
+margin-right:auto;
 font-size:3.4vmin;
 line-height:1.1em;
 color:#96271d;
@@ -233,13 +234,13 @@ float:left;
 
 .mc h4{
 float:left;
-margin-left: 25px;
+margin-left: 1.8vw;
 font-size:25px;
 }
 
 .mc p{
 float:left;
-margin-left: 28px;
+margin-left: 2vw;
 }
 
 
@@ -257,7 +258,7 @@ font-size:11px;
 .mc li h1{
 font-size:20px;
 text-align:left; !important;
-margin-left:-15px;
+margin-left:-1vw;
 display:block;
 }
 
@@ -279,7 +280,7 @@ font-size:15px;
 }
 
 .mc li p{
-margin-left:15px;
+margin-left:1vw;
 font-size:16px;
 margin-top:5px;
 }
