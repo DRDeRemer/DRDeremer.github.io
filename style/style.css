@@ -28,7 +28,13 @@ h2
   font-size: 100%;
 }
 
-img{border: 0px;}
+.responsive { width:90%; height:auto; max-width:150px; }
+
+img{border: 0px;
+
+
+
+}
 
 a{outline: none;
 cursor:pointer;}
@@ -181,7 +187,7 @@ font-weight:normal !important;
 
 span.nameHeadline{
 text-align:center; 
-font-size:30px;
+font-size:4vmin;
 line-height:1.1em;
 color:#96271d;
 font-family:Palatino;
