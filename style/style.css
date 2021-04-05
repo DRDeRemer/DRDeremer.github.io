@@ -50,7 +50,7 @@ cursor:pointer;}
 .page{
 	background-color: #EBF6FD;
 	border: 1.5px solid black;
-	width: 95%;
+	width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -226,17 +226,6 @@ width:80%;
 }
 
 
-/*
-p.pdfLink{
-font-size:11px;
-color:#000000;
-text-align:left;
-}
-
-p.pdfLink a{
-color:#000000;
-font-size:11px;
-} */
 
 .mc li h1{
 font-size:20px;
@@ -251,7 +240,7 @@ margin-bottom:2em;
 }
 
 .mc li{
-width:96%;
+width:90%;
 margin-top:20px;
 margin-bottom:1.2em;
 }
@@ -263,7 +252,7 @@ font-size:15px;
 }
 
 .mc li p{
-margin-left:0.5vw;
+margin-left:1vw;
 font-size:15px;
 margin-top:5px;
 }
@@ -282,25 +271,13 @@ text-align:left !important;}
 font-size:15px;}
 
 
-.mc h3{
-font-size:13px;
-magin-top:0px;
-text-decoration:none;}
 
-p.teachingHeadline
-{
-font-size:19px;
-font-weight:bold;
-}
 
 ul.break
 {
 clear:left;}
 
-li.teachingLi{
-font-size:16px;
-margin-top:10px;
-}
+
 
 li.noBullet{
 list-style:none;
