@@ -234,13 +234,13 @@ float:left;
 
 .mc h4{
 float:left;
-margin-left: 1.8vw;
+margin-left: 1vw;
 font-size:25px;
 }
 
 .mc p{
 float:left;
-margin-left: 2vw;
+margin-left: 1vw;
 }
 
 
@@ -264,13 +264,13 @@ display:block;
 
 .mc ul{
 font-size:15px;
-margin-bottom:3em; 
+margin-bottom:2em; 
 }
 
 .mc li{
 width:90%;
 margin-top:20px;
-margin-bottom:1.8em;
+margin-bottom:1.2em;
 }
 
 .mc li a{
@@ -280,7 +280,7 @@ font-size:15px;
 }
 
 .mc li p{
-margin-left:1vw;
+margin-left:0.5vw;
 font-size:16px;
 margin-top:5px;
 }
