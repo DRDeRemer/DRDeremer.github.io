@@ -91,8 +91,7 @@ font-size:16px;
 .nav table{
 	margin-top:20px;
       margin-left:10%; 
-	/* margin-left:auto;
-       margin-right:auto;  */
+	
 	/* padding:5px; */
 	width:80%; 
 }
@@ -103,11 +102,12 @@ height:40px;
 /* font-weight: 600; */
 font-family: helvetica,verdana,arial,sans-serif;
 	font-size: 17px;
-
+/*
 @media only screen and (max-width: 768px) {
       height:6vh;
      font-size: 1.8vh;
   } 
+*/
 }
 
 
