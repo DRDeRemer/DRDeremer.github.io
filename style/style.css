@@ -80,7 +80,7 @@ width:auto;
 .footer p{color:#ffffff;
 text-align:right;
 margin-right:8px;
-font-size:16px;
+font-size:1.5vh;
 }
 
 
@@ -186,11 +186,6 @@ line-height:1.1em;
 color:#96271d;
 font-family:Palatino;
 font-weight:normal !important;
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-     font-size: 6vh;
-  }
 
 }
 
