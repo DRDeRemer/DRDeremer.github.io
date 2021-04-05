@@ -225,25 +225,8 @@ width:80%;
 
 }
 
-.mc img{
-margin-top:20px;
-margin-left:20px;
-margin-bottom:20px;
-float:left;
-}
 
-.mc h4{
-float:left;
-margin-left: 1vw;
-font-size:25px;
-}
-
-.mc p{
-float:left;
-margin-left: 1vw;
-}
-
-
+/*
 p.pdfLink{
 font-size:11px;
 color:#000000;
@@ -253,7 +236,7 @@ text-align:left;
 p.pdfLink a{
 color:#000000;
 font-size:11px;
-}
+} */
 
 .mc li h1{
 font-size:20px;
@@ -268,7 +251,7 @@ margin-bottom:2em;
 }
 
 .mc li{
-width:90%;
+width:96%;
 margin-top:20px;
 margin-bottom:1.2em;
 }
