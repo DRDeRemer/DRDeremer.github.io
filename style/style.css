@@ -231,7 +231,7 @@ width:80%;
 .mc li h1{
 font-size:20px;
 text-align:left; !important;
-margin-left:-2vw;
+margin-left:-1%;
 display:block;
 }
 
@@ -241,11 +241,11 @@ margin-bottom:2em;
 }
 
 .mc li{
-width:90%;
+width:auto;
 margin-top:20px;
 margin-bottom:1.2em;
 margin-left:1%;
-margin-right:9%;
+margin-right:10%;
 }
 
 .mc li a{
