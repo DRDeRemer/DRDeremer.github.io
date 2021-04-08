@@ -275,10 +275,38 @@ font-size:15px;}
 
 
 
+.mc h3{
+font-size:20px;
+margin-left:3%;
+font-family: arial, sans-serif;
+   letter-spacing: .01em;
+   display:block;
+margin-bottom:1em;
+}
+
+
+
+p.teachingHeadline
+{
+font-size:16px;
+font-weight:bold;
+margin-left:5%;
+margin-bottom:-1em;
+
+}
 
 ul.break
 {
-clear:left;}
+clear:left;
+margin-top:0em;
+margin-bottom:3em;
+}
+
+li.teachingLi{
+font-size:15px;
+margin-left:7%;
+margin-bottom:1em;
+}
 
 
 
